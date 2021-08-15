@@ -34,7 +34,7 @@ if(isset($_POST['submit'])){
          </br>";
     }
     if(!$errores){
-        $enviara = "elmatumassa@gmail.com";
+        $enviara = "tucorreo@gmail.com";
         $asunto = "Formulario de Contacto";
         $mensaje_final = "De: $nombre \n";
         $mensaje_final .= "Correo: $correo \n";
