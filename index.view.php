@@ -23,7 +23,7 @@
                 </div>
             <?php elseif($enviado): ?>
                 <div class="exito alerta">
-                    Mensaje de error.
+                    El correo se envio exitosamente
                 </div>
             <?php endif ?>
             <input type="submit" name="submit" class="btn btn-primary" value="Enviar">
