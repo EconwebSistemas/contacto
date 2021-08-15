@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.contenido{
+    width: 90%;
+    margin:auto;
+    max-width: 500px;
+    font-family: "Quicksand", sans-serif;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+}
+form{
+    width: 100%;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: rgb(250, 243, 234);
+    overflow: hidden;
+    box-shadow: 0 0 3px grey;
+    border-top: 5px royalblue solid;
+}
+form input[type="text"],
+form input[type="email"],
+form textarea{
+    border: 1px solid royalblue;
+    border-radius: 3px;
+    padding: 16px;
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    color: #141938;
+    font-weight: bold;
+}  
+.alerta{
+    padding: 1em;
+    color: #fff;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    font-size: 16px;
+
+}
+.alerta.error{
+    background-color: rgb(255, 125, 125);
+    border:rgb(138, 3, 30) 1px solid;
+    color:#ffffff;
+    font-weight: bold;
+}
+.alerta.exito{
+    background-color: rgb(85, 131, 85);
+    border: darkslategray 1px solid;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.btn,
+form input[type="submit"]{
+    padding: 15px;
+    background-color: rgb(3, 98, 206);
+    color:mintcream;
+    font-size: 1em;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 2px;
+    border: none;
+    float:right;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+form input[type="submit"]:hover{
+    padding: 15px;
+    background-color: rgb(2, 26, 54);
+    color:mintcream;
+    font-weight: bold;
+
+}
